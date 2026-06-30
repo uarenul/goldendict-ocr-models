@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PixPinOcr>
+    <language id="PixPin" model="PixPin" dict="PixPin" gpu="false" fp16="true" target="64">
+         <cpu i18n="CPU" gpu="false" fp16="true" />
+         <gpu i18n="GPU" gpu="true" fp16="true" />
+   </language>
+</PixPinOcr>

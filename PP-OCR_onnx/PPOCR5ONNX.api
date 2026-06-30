@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PaddleOnnxOcr>
+    <language info="PP-OCRv6" id="PP-OCRv6" gpu="false" target="64">
+         <__v6T i18n="Tiny-简/繁/英/46种拉丁" det="PP-OCRv6/tiny/det.onnx" rec="PP-OCRv6/tiny/rec.onnx" dict="PP-OCRv6/tiny/keys.txt" />
+         <__v6S i18n="Small-简/繁/英/日/46种拉丁" det="PP-OCRv6/small/det.onnx" rec="PP-OCRv6/small/rec.onnx" dict="PP-OCRv6/small/keys.txt" />
+         <__v6M i18n="Medium-简/繁/英/日/46种拉丁" det="PP-OCRv6/medium/det.onnx" rec="PP-OCRv6/medium/rec.onnx" dict="PP-OCRv6/medium/keys.txt" />
+    </language>
+    <language info="简体中文, 中文拼音, 繁体中文, 英文, 日文" id="Chinese English Japanese PP-OCRv5" dict="OnnxOCR/ppocrv5_dict.txt" gpu="false" target="64">
+         <__L1 i18n="Mobile" det="OnnxOCR/PP_OCRv5_mobile_det.onnx" rec="OnnxOCR/PP_OCRv5_mobile_rec.onnx" cls="OnnxOCR/PP_OCRv5_mobile_cls.onnx" />
+         <__L2 i18n="Server" det="OnnxOCR/PP_OCRv5_server_det.onnx" rec="OnnxOCR/PP_OCRv5_server_rec.onnx" cls="OnnxOCR/PP_OCRv5_server_cls.onnx" />
+    </language>
+    <language info="中英" id="Chinese PP-OCRv4" rec="OnnxOCR/PP_OCRv4_rec.onnx" dict="OnnxOCR/ppocr_keys_v1.txt" gpu="false" target="64">
+         <__L3 i18n="PP_OCRv4" det="OnnxOCR/PP_OCRv4_det.onnx" cls="OnnxOCR/PP_OCRv4_cls.onnx" />
+         <__L4 i18n="ch_ppocr_server_v2.0_det" det="OnnxOCR/ch_ppocr_server_v2.0_det.onnx" cls="OnnxOCR/ch_ppocr_server_v2.0_cls.onnx" />
+    </language>
+    <language id="RapidOCR PP-OCRv5" gpu="false" target="64">
+         <__L5 info="简体中文, 中文拼音, 繁体中文, 英文, 日文" i18n="PP-OCRv5 Mobile" det="RapidOCR/PP-OCRv5/ch_PP-OCRv5_mobile_det.onnx" rec="RapidOCR/PP-OCRv5/ch_PP-OCRv5_mobile_rec.onnx" cls="PP_OCRv5_mobile_cls.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_dict.txt" />
+         <__L6 info="简体中文, 中文拼音, 繁体中文, 英文, 日文" i18n="PP-OCRv5 Server" det="RapidOCR/PP-OCRv5/ch_PP-OCRv5_server_det.onnx" rec="RapidOCR/PP-OCRv5/ch_PP-OCRv5_server_rec.onnx" cls="PP_OCRv5_mobile_cls.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_dict.txt" />
+         <__englishR5 info="英文" i18n="English" det="RapidOCR/PP-OCRv4/en_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/en_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_en_dict.txt" />
+         <__koreanR5 info="韩文" i18n="Korean" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/korean_PP-OCRv5_mobile_rec.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_korean_dict.txt" />
+         <__eslavR5 info="俄罗斯文, 白俄罗斯文, 乌克兰文" i18n="East Slavic" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/eslav_PP-OCRv5_mobile_rec.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_eslav_dict.txt" />
+         <__latinR5 info="英文, 法文, 德文, 南非荷兰文, 意大利文, 西班牙文, 波斯尼亚文, 葡萄牙文, 捷克文, 威尔士文, 丹麦文, 爱沙尼亚文, 爱尔兰文, 克罗地亚文, 乌兹别克文, 匈牙利文, 塞尔维亚文(latin), 印度尼西亚文, 欧西坦文, 冰岛文, 立陶宛文, 毛利文, 马来文, 荷兰文, 挪威文, 波兰文, 斯洛伐克文, 斯洛文尼亚文, 阿尔巴尼亚文, 瑞典文, 西瓦希里文, 塔加洛文, 土耳其文, 拉丁文" i18n="Latin" det="RapidOCR/PP-OCRv4/en_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/latin_PP-OCRv5_mobile_rec.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_latin_dict.txt" />
+         <__thaiR5 i18n="Thai" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/th_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_th_dict.txt" />
+         <__greekR5 i18n="Greek" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/el_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_el_dict.txt" />
+         <__arabicR5 i18n="Arabic" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/arabic_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_arabic_dict.txt" />
+         <__cyrilliciR5 i18n="Cyrillic" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/cyrillic_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_cyrillic_dict.txt" />
+         <__devanagariR5 i18n="Devanagari" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/devanagari_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_devanagari_dict.txt" />
+         <__TamilR5 i18n="Tamil" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/ta_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_ta_dict.txt" />
+         <__TeluguR5 i18n="Telugu" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv5/te_PP-OCRv5_rec_mobile_infer.onnx" dict="RapidOCR/PP-OCRv5/ppocrv5_te_dict.txt" />
+    </language>
+    <language id="RapidOCR PP-OCRv4" gpu="false" target="64">
+         <__L7 info="中英" i18n="Chinese Mobile" det="RapidOCR/PP-OCRv4/ch_PP-OCRv4_det.onnx" rec="RapidOCR/PP-OCRv4/ch_PP-OCRv4_rec.onnx" cls="RapidOCR/PP-OCRv4/ch_ppocr_mobile_v2.0_cls.onnx" dict="RapidOCR/PP-OCRv4/ppocr_keys_v1.txt" />
+         <__L8 info="中英" i18n="Chinese Server" det="RapidOCR/PP-OCRv4/ch_PP-OCRv4_server_det.onnx" rec="RapidOCR/PP-OCRv4/ch_PP-OCRv4_server_rec.onnx" cls="RapidOCR/PP-OCRv4/ch_ppocr_mobile_v2.0_cls.onnx" dict="RapidOCR/PP-OCRv4/ppocr_keys_v1.txt" />
+         <__englishR4 info="英文" i18n="English" det="RapidOCR/PP-OCRv4/en_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/en_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/en_dict.txt" />
+         <__DocR4 info="中文文档" i18n="Chinese Doc" det="RapidOCR/PP-OCRv4/ch_PP-OCRv4_det.onnx" rec="RapidOCR/PP-OCRv4/ch_doc_PP-OCRv4_server_rec.onnx" dict="RapidOCR/PP-OCRv4/ppocrv4_doc_dict.txt" />
+         <__japanR4 info="日文" i18n="Japanese" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/japan_PP-OCRv4_rec.onnx" cls="RapidOCR/PP-OCRv4/ch_ppocr_mobile_v2.0_cls.onnx" dict="RapidOCR/PP-OCRv4/japan_dict.txt" />
+         <__koreanR4 info="韩文" i18n="Korean" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/korean_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/korean_dict.txt" />
+         <__arabicR4 info="阿拉伯文" i18n="Arabic" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/arabic_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/arabic_dict.txt" />
+         <__devanagariR4 info="梵文" i18n="Devanagari" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/devanagari_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/devanagari_dict.txt" />
+         <__KannadaR4 info="卡纳达语" i18n="Kannada" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/ka_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/ka_dict.txt" />
+         <__TamilR4 info="泰米尔文" i18n="Tamil" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/ta_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/ta_dict.txt" />
+         <__TeluguR4 info="泰卢固文" i18n="Telugu" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/te_PP-OCRv4_rec.onnx" dict="RapidOCR/PP-OCRv4/te_dict.txt" />
+    </language>
+    <language id="RapidOCR PP-OCRv3" gpu="false" target="64">
+         <__chtR3 info="中文繁体" i18n="Traditional Chinese" det="RapidOCR/PP-OCRv4/ch_PP-OCRv4_det.onnx" rec="RapidOCR/PP-OCRv4/chinese_cht_PP-OCRv3_rec.onnx" cls="RapidOCR/PP-OCRv4/ch_ppocr_mobile_v2.0_cls.onnx" dict="RapidOCR/PP-OCRv4/chinese_cht_dict.txt" />
+         <__latinR3 info="拉丁文" i18n="Latin" det="RapidOCR/PP-OCRv4/en_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/latin_PP-OCRv3_rec.onnx" dict="RapidOCR/PP-OCRv4/latin_dict.txt" />
+         <__cyrilliciR3 info="塞尔维亚文" i18n="Cyrillic" det="RapidOCR/PP-OCRv4/Multilingual_PP-OCRv3_det.onnx" rec="RapidOCR/PP-OCRv4/cyrillic_PP-OCRv3_rec.onnx" dict="RapidOCR/PP-OCRv4/cyrillic_dict.txt" />
+    </language>
+</PaddleOnnxOcr>

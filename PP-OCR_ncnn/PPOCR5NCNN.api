@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PaddleNcnnOcr>
+    <language id="PP-OCRv6 Medium" model="PPOCRv6/medium" dict="PPOCRv6/medium" gpu="false" target="64">
+         <cpu i18n="CPU" gpu="false" />
+         <gpu i18n="GPU" gpu="true" />
+    </language>
+    <language id="PP-OCRv6 Small" model="PPOCRv6/small" dict="PPOCRv6/small" gpu="false" target="64">
+         <cpu i18n="CPU" gpu="false" />
+         <gpu i18n="GPU" gpu="true" />
+    </language>
+    <language id="PP-OCRv6 Tiny" model="PPOCRv6/tiny" dict="PPOCRv6/tiny" gpu="false" target="64">
+         <cpu i18n="CPU" gpu="false" />
+         <gpu i18n="GPU" gpu="true" />
+    </language>
+    <language id="PP-OCRv5_mobile" model="PP_OCRv5_mobile" dict="PP_OCRv5" gpu="false" target="64">
+         <cpu i18n="CPU" gpu="false" />
+         <gpu i18n="GPU" gpu="true" />
+    </language>
+    <language id="PP-OCRv5_server" model="PP_OCRv5_server" dict="PP_OCRv5" gpu="false" target="64">
+         <cpu i18n="CPU" gpu="false" />
+         <gpu i18n="GPU" gpu="true" />
+    </language>
+</PaddleNcnnOcr>
