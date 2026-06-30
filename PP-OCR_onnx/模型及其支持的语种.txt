@@ -1,0 +1,10 @@
+﻿模型及其支持的语种¶
+模型	支持语种
+PP-OCRv5_server_rec	简体中文、繁体中文、英文、日文
+PP-OCRv5_mobile_rec	简体中文、繁体中文、英文、日文
+korean_PP-OCRv5_mobile_rec	韩文、英文
+latin_PP-OCRv5_mobile_rec	英文、法文、德文、南非荷兰文、意大利文、西班牙文、波斯尼亚文、葡萄牙文、捷克文、威尔士文、丹麦文、爱沙尼亚文、爱尔兰文、克罗地亚文、乌兹别克文、匈牙利文、塞尔维亚文（latin）、印度尼西亚文、欧西坦文、冰岛文、立陶宛文、毛利文、马来文、荷兰文、挪威文、波兰文、斯洛伐克文、斯洛文尼亚文、阿尔巴尼亚文、瑞典文、西瓦希里文、塔加洛文、土耳其文、拉丁文
+eslav_PP-OCRv5_mobile_rec	俄罗斯文、白俄罗斯文、乌克兰文、英文
+th_PP-OCRv5_mobile_rec	泰文、英文
+el_PP-OCRv5_mobile_rec	希腊文、英文
+en_PP-OCRv5_mobile_rec	英文
